@@ -13,3 +13,19 @@ li {
 	display: inline;
 }
 
+h1 {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: 400;
+}
+
+span {
+	font-family: Playfair Display;
+	font-style: italic;
+	font-weight: 400;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: 24px;
+}
