@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <link rel="stylesheet" href="css/normalize.css">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <title>Заголовок страницы</title>
   </head>
   <body>
     <header class="main-header">
-      <img src="img/logo.png" alt=Логотип>
       <nav>
-        <ul>
+        <ul class="navmenu">
           <a href="#"><li>Каталог</li></a>
           <a href="#"><li>Доставка и оплата</li></a>
           <a href="#"><li>Отзывы</li></a>
@@ -17,10 +20,11 @@
           <a href="#"><li>Контакты</li></a>
           <a href="#"><li>Корзина</li></a>
         </ul>
+        <img src="img/logo.png" alt=Логотип>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="katalog">
         <h1><span>Авторские букеты в Петербурге</span></h1>
         <p>Оригинальные свежие букеты с доставкой по всему городу</p>
         <a href="#">Каталог</a>
@@ -38,7 +42,7 @@
           Можем собрать букет и передать его в доставку всего за час.
         </dd>
       </section>
-      <section>
+      <section class="reklama">
         <dl>
           <img src="img/svejie.svg">
         </dl>
@@ -49,7 +53,7 @@
           Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.
         </dd>
       </section>
-      <section>
+      <section class="garant">
         <dl>
           <img src="img/photo.svg">
         </dl>
@@ -73,22 +77,19 @@
       </section>
       <section class="buketchoose">
         <div class="buket1">
-          <a href="#"></a>
-          <img src="img/sammi.png">
-          <h2>Свадебные букеты</h2>
-          <p>Букеты для Невест</p>
+          <a href="#"><h2>Свадебные букеты</h2></a>
+          <a href="#"><p>Букеты для Невест</p></a>
+          <a href="#"><img src="img/sammi.png"></a>
         </div>
         <div class="buket2">
-          <a href="#"></a>
-          <img src="img/fresh.png">
-          <h2>Букеты с пионами</h2>
-          <p>Букеты с сезонными пионами</p>
+          <a href="#"><h2>Букеты с пионами</h2></a>
+          <a href="#"><p>Букеты с сезонными пионами</p></a>
+          <a href="#"><img src="img/fresh.png"></a>
         </div>
         <div class="buket3">
-          <a href="#"></a>
-          <img src="img/alyssa.png">
-          <h2>Выбрать букет</h2>
-          <p>Букеты в ассортименте</p>
+          <a href="#"><h2>Выбрать букет</h2></a>
+          <a href="#"><p>Букеты в ассортименте</p></a>
+          <a href="#"><img src="img/alyssa.png"></a>
         </div>
         <h2>Скидка 10% на первый заказ</h2>
         <p>Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
