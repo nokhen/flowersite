@@ -1,31 +1,119 @@
 body {
-
-}
-.navmenu {
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: 400;
-	text-decoration: none;
-	list-style-type: none;
+	font-family: Montserrat, "sans-serif";
 }
 
 li {
 	display: inline;
 }
 
-h1 {
-	font-family: Playfair Display;
-	font-style: normal;
-	font-weight: 400;
+a {
+	text-decoration: none;
+	color: white;
 }
 
-span {
-	font-family: Playfair Display;
-	font-style: italic;
+h1 {
+	font-family: "Playfair Display", "sans-serif";
+	font-style: normal;
 	font-weight: 400;
+	font-size: 44px; 
+	color: #AE7C78;
+}
+
+h2 {
+	font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+	color: #AE7C78;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+}
+
+h4 {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+h1>span {
+	font-style: italic;
+}
+
+cite {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
 }
 
 p {
     font-family: Montserrat;
-    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+    color: #AE7C78;
 }
+
+dd, dt, dl {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+	color: #AE7C78;
+}
+
+}
+
+.contact {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+    color: #AE7C78;
+}
+
+.knopka1 {
+	background:#D89999;
+	color: white;
+	border-radius: 40px;
+	width: 285px;
+	height: 80px;
+	text-decoration: none;
+	font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.navmenu {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: none;
+	list-style-type: none;
+
+}
+
+.navmenu a {
+	color: #AE7C78;
+}
+
+.advantages {
+	display: flex;
+}
+
