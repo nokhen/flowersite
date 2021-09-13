@@ -75,8 +75,11 @@ dd, dt, dl {
     font-size: 16px;
     line-height: 29px;
 	color: #AE7C78;
+    text-align: left;
 }
 
+.main-header a {
+    color: #AE7C78;
 }
 
 .contact {
@@ -85,6 +88,13 @@ dd, dt, dl {
     font-weight: normal;
     font-size: 16px;
     line-height: 29px;
+    color: #AE7C78;
+    background: #fff;
+    box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+    border-radius: 12px;
+}
+
+.contact p, h2, h4 {
     color: #AE7C78;
 }
 
@@ -106,14 +116,83 @@ dd, dt, dl {
 	font-weight: 400;
 	text-decoration: none;
 	list-style-type: none;
-
+    color: #AE7C78;
 }
 
 .navmenu a {
-	color: #AE7C78;
+    color: #AE7C78;
 }
 
 .advantages {
 	display: flex;
 }
 
+
+.slider {
+    margin-left: 300px;
+}
+
+.buketi {
+    display: flex;
+}
+
+.ideal {
+    display: flex;
+}
+
+.ideal1 {
+    text-align: center;
+}
+
+.ideal p, h4 {
+    color: #AE7C78;
+}
+
+.skidka {
+    background: #AE7C78;
+}
+
+.skidka h1,p {
+    color: #fff;
+}
+
+.otziv {
+    display: flex;
+    text-align: center;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.otziv p, cite {
+    color: #AE7C78;
+}
+
+.border {
+    border: 1px solid #AE7C78;
+    box-sizing: border-box;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 60px;
+}
+
+.titul {
+    text-align: center;
+}
+
+
+#footer-content {
+    background: #AE7C78;
+}
+
+
+.site-footer {
+    background: #AE7C78;
+    width: 1920px;
+    height: 120px;
+}

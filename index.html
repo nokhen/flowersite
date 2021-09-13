@@ -8,19 +8,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Заголовок страницы</title>
+    <style>
+      hr {
+      border: 1px solid #AE7C78;
+      height: 1px;
+      }
+     </style>
   </head>
   <body>
     <header class="main-header">
       <nav>
+        <hr></hr>
         <ul class="navmenu">
           <li><a href="#">Каталог</a></li>
           <li><a href="#">Доставка и оплата</a></li>
           <li><a href="#">Отзывы</a></li>
+          <img src="img/logo.png" alt="" class="logo">
           <li><a href="#">Спецпредложения</a></li>
           <li><a href="#">Контакты</a></li>
           <li><a href="#">Корзина</a></li>
         </ul>
-        <img src="img/logo.png" alt="" class="logo">
+        <hr></hr>
       </nav>
     </header>
     <main>
@@ -61,6 +69,7 @@
         </dd></dl></div>
       </section>
       <section class="slider">
+        <div class="slider">
         <h2>Популярные букеты</h2>
         <h3>Букет «Нежность»</h3>
         <p>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
@@ -70,8 +79,10 @@
         <img src="img/imgbin.jpg" alt="">
         <img src="img/arrowleft.svg" alt="">
         <img src="img/arrowright.svg" alt="">
+        </div>
       </section>
       <section class="buketchoose">
+        <div class="buketi">
         <div class="buket1">
           <a href="#"><h2>Свадебные букеты</h2></a>
           <a href="#"><p>Букеты для Невест</p></a>
@@ -83,13 +94,20 @@
           <a href="#"><img src="img/fresh.png" alt=""></a>
         </div>
         <div class="buket3">
+          <a href="#"><h2>Выбрать букет</h2></a>
+          <a href="#"><p>Букеты в ассортименте</p></a>
+          <a href="#"><img src="img/alyssa.png" alt=""></a>
+        </div>
         </div>
       </section>
-
-      <section>
+      <div class="skidka">
+      <h1>Скидка 10% на первый заказ</h1>
+      <p>Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
+      <img src="img/florist.jpg">
+      </div>
+      <section class="ideal1">
         <h2>4 шага к идеальному букету</h2>
-        <div class=""
-        <ul>
+        <ul class="ideal">
           <li>
             <img src="img/zakaz.svg">
             <h4>Заказ</h4>
@@ -133,7 +151,9 @@
       </ul>
       </section>
       <section>
-        <h2>Отзывы</h2>
+        <div class="border">
+          <h2 class="titul">Отзывы</h2>
+        <div class="otziv">
         <blockquote>
           <p>Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!</p>
           <cite>Марина</cite>
@@ -146,6 +166,8 @@
           <p>Выбор букетов на любой вкус и цену. Бывают хорошие скидки,а флористы всегда помогут и точно соберут красивый букет!</p>
           <cite>Ольга</cite>
         </blockquote>
+        </div>
+        </div>
       </section>
       <section class="map">
         <div class="contact">
@@ -159,31 +181,28 @@
         <p>Напишите нам:</p>
         <p><a class="contact" href="mailto:info@botanika.ru">info@botanika.ru</a></p>
       </div>
+      <div class="map1">
       <img src="img/map.jpg" alt="">
+      </div>
       </section>
     </main>
-    <footer class="main-footer">
+    <footer class="site-footer">
+      <div id="footer-content">
       <nav>
         <ul>
+          <img src="img/logo-white.svg" alt="" class="logo">
           <li><a href="#">Каталог</a></li>
           <li><a href="#">Доставка и оплата</a></li>
           <li><a href="#">Отзывы</a></li>
           <li><a href="#">Спецпредложения</a></li>
           <li><a href="#">Контакты</a></li>
           <li><a href="#">Корзина</a></li>
-        </ul>
-        <ul>
-          <li>
-            <img src="img/insta.svg" alt="">
-          </li>
-          <li>
-            <img src="img/fb.svg" alt="">
-          </li>
-          <li>
-            <img src="img/twit.svg" alt="">
-          </li>
+          <li><a href="#"><img src="img/inst-white.svg" alt=""></a></li>
+          <li><a href="#"><img src="img/fb-white.svg" alt=""></a></li>
+          <li><a href="#"><img src="img/twit-white.svg" alt=""></a></li>
         </ul>
       </nav>
+      </div>
     </footer>
   </body>
 </html>
