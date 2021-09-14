@@ -108,6 +108,7 @@ dd, dt, dl {
 	font-family: Montserrat;
     font-size: 16px;
     line-height: 20px;
+    text-align: center;
 }
 
 .navmenu {
@@ -117,10 +118,34 @@ dd, dt, dl {
 	text-decoration: none;
 	list-style-type: none;
     color: #AE7C78;
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.nav-item {
+    margin-left: 8px;
+}
+
+.nav-link {
+    padding: 15px 90px 25px;
 }
 
 .navmenu a {
     color: #AE7C78;
+}
+
+.logo {
+    padding-top: 5px;
+}
+
+.rozi {
+    
+}
+
+.tulpa {
+
 }
 
 .advantages {
@@ -130,6 +155,10 @@ dd, dt, dl {
 
 .slider {
     margin-left: 300px;
+}
+
+.news p, h2 {
+    color: #AE7C78;
 }
 
 .buketi {
